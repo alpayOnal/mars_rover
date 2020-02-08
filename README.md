@@ -4,8 +4,8 @@ Solution of Mars Rover problem in Golang
 
 ### Requirements
 
-Docker
-Docker Compose
+    Docker
+    Docker Compose
 
 
 ### Installation
