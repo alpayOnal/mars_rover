@@ -1,6 +1,6 @@
 # Mars Rovers
 
-Solution of mars rover problem in golang
+Solution of Mars Rover problem in Golang
 
 ### Requirements
 
