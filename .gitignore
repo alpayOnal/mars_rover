@@ -1,2 +1,5 @@
 .idea
 .DS_Store
+python/.idea
+golang/.idea
+python/__pycache__

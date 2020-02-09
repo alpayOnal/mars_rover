@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    restart: always
+    image: python:3.6.8-alpine3.8
+    volumes:
+      - .:/app
+    command: tail -f /dev/null

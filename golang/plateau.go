@@ -1,4 +1,4 @@
-package main
+package golang
 
 type Plateau struct {
 	MaxX int
