@@ -9,8 +9,8 @@ Solution of Mars Rover problem
 
 
 ### Installation
-docker-compose up -d
-docker-compose exec app python /app/main.py
+    docker-compose up -d
+    docker-compose exec app python /app/main.py
 
     1 3 N
     5 1 E

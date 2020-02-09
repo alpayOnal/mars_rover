@@ -44,7 +44,7 @@ class TestRoverS(unittest.TestCase):
 
         self.assertEqual(self.rover.position, "1 3 N")
 
-    def testRoverCase1(self):
+    def testRoverCase2(self):
         self.rover = Rover(3, 3, 'E', self.plateau)
         self.rover.run("MMRMMRMRRM")
 
