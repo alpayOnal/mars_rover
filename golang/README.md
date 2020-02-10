@@ -18,8 +18,8 @@ docker-compose up
     app_1  | 2020/02/08 11:08:00 stdout: 5 1 E
 
 ### Tests
-docker-compose up -d
-docker-compose exec app /bin/bash
+    docker-compose up -d
+    docker-compose exec app /bin/bash
 
 Sample Result:
     
