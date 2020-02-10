@@ -1,15 +1,14 @@
-FROM golang:latest
+FROM golang:1.13
 
 WORKDIR /app
 
-COPY go.mod go.sum ./
-
-RUN go mod download
-
-COPY .. .
+COPY . .
 
 RUN apt-get update  -y && apt-get install -y --no-install-recommends apt-utils
 
 RUN go get github.com/githubnemo/CompileDaemon
 
-ENTRYPOINT CompileDaemon --build="go build -o main" --command=./main
+RUN go build .
+RUN chmod +x mars_rover
+CMD ["./mars_rover"]
+#ENTRYPOINT CompileDaemon --build="go build -o main" --command=./main
